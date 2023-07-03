@@ -1111,7 +1111,7 @@ svg path {
     list-style: none;
     opacity: 1;
     -webkit-transition: opacity .3s ease-in-out;
-    transition: opacity .3s ease-in-out
+    transition: opacity .3s ease-in-out;
 }
 
 #three-slide .wrapper .slider.swap {
@@ -1136,7 +1136,7 @@ svg path {
 }
 
 #three-slide .wrapper .slider li img {
-    width: 100%
+    width: 100%;
 }
 
 #three-slide .wrapper .slider .back {
@@ -1221,6 +1221,25 @@ svg path {
         right: 0
     }
 }
+
+
+
+.slider img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+.slider :hover img {
+	-webkit-transform: scale(1.9);
+	transform: scale(1.3);
+}
+
+
 
 #contact {
     position: relative;
@@ -1405,4 +1424,9 @@ svg path {
     margin-bottom: 0;
     font-family: "Raleway", Helvetica, sans-serif;
     font-size: 12px
+}
+
+#macarte {
+    height: 135px;
+    width: 100%;
 }
